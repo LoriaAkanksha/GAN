@@ -9,4 +9,9 @@ During training, the generator and discriminator are trained alternately in a mi
 
 
 
+### Tensors
+Tensors are multi-dimensional arrays used to represent data. Tensors can have different ranks, which correspond to the number of dimensions. For example, a scalar (a single number) is a rank-0 tensor, a vector is a rank-1 tensor, a matrix is a rank-2 tensor, and so on. Tensors are fundamental data structures used for storing and manipulating data in neural networks.
+### Batches
+In training GANs and other machine learning models, data is typically divided into batches for efficient computation. A batch is a subset of the training data that is processed together during each training iteration. Batch size refers to the number of data samples in each batch. Training with batches allows for parallelization of computation and efficient use of resources such as GPU memory.
+
 
