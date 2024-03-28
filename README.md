@@ -7,10 +7,14 @@ The discriminator is another neural network component of a GAN that learns to di
 ### Training Procedure:
 During training, the generator and discriminator are trained alternately in a minimax game framework. The generator is trained to maximize the probability of the discriminator making a mistake (i.e., classifying fake samples as real), while the discriminator is trained to minimize its error in distinguishing between real and fake samples. This adversarial training process continues iteratively until the generator produces samples that are difficult for the discriminator to distinguish from real data.
 <p align="center">
-  <img src="images/" width='600px'>
+  <img src="images./gan.jpeg" width='600px'>
 </p>
 
-
+### MNIST dataset
+The MNIST dataset is a widely used benchmark dataset in the field of machine learning and computer vision. It consists of 28x28 grayscale images of handwritten digits (0-9), along with their corresponding labels. The MNIST dataset contains 60,000 training images and 10,000 testing images. It is commonly used for tasks such as image classification, digit recognition, and generative modeling.
+<p align="center">
+  <img src="images./MNIST.webp" width='600px'>
+</p>
 
 ### Tensors
 Tensors are multi-dimensional arrays used to represent data. Tensors can have different ranks, which correspond to the number of dimensions. For example, a scalar (a single number) is a rank-0 tensor, a vector is a rank-1 tensor, a matrix is a rank-2 tensor, and so on. Tensors are fundamental data structures used for storing and manipulating data in neural networks.
