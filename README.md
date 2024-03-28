@@ -13,7 +13,7 @@ During training, the generator and discriminator are trained alternately in a mi
 ### MNIST dataset
 The MNIST dataset is a widely used benchmark dataset in the field of machine learning and computer vision. It consists of 28x28 grayscale images of handwritten digits (0-9), along with their corresponding labels. The MNIST dataset contains 60,000 training images and 10,000 testing images. It is commonly used for tasks such as image classification, digit recognition, and generative modeling.
 <p align="center">
-  <img src="images./MNIST.webp" width='600px'>
+  <img src="images./mnist.png" width='600px'>
 </p>
 
 ### Tensors
